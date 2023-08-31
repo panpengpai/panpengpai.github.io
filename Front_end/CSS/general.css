@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Quicksand, sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* combine with js file to display the page after everything is loaded */
+body{
+  display: none;
+}
+
+p2 {
+  color: #6c757d;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 20px;
+  white-space: nowrap;
+  padding: 5px;
+}
+
+h1 {
+  font-family: Bricolage Grotesque, sans-serif;
+  font-size: 100px;
+  color: white;
+}
+
+p {
+  font-size: 30px;
+  color: white;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 70px;
+}

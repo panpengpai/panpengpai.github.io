@@ -1,0 +1,21 @@
+#home a{
+    margin-top: 20px;
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: white;
+    border: double 1.5px #EFC050;
+    background-color: #EFC050;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#home a:hover{
+    filter: brightness(120%);
+}
+
+#home a:active{
+    filter: brightness(140%);
+    border-style: inset;
+}

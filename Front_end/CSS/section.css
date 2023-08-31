@@ -1,0 +1,89 @@
+section {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* elements are vertically centred. 
+  When you use flexBox, elements resizing with window size. 
+  When the elements get smaller, it taks less space vertically. 
+  All elements will move to maintain it to be centered.*/
+  background: #e9ecef;
+  padding: 50px;
+}
+
+section:nth-child(odd) {
+  background: white;
+}
+
+#home {
+  background: url(../images/wallpaper2.jpeg) no-repeat center center/cover;
+  flex-direction: column;
+  min-height: 60vh;
+}
+
+#article {
+  flex-direction: column;
+}
+
+.issue-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 800px;
+}
+
+.issue-box::before {
+  content: "";
+  position: absolute;
+  width: 3px;
+  top: 10px;
+  bottom: 10px;
+  left: 50%;
+  background-color: #e9ecef;
+  transform: translateX(-50%);
+}
+
+.issues {
+  position: relative;
+  margin: 20px;
+  margin-top: 100px;
+}
+
+.issue {
+  position: relative;
+}
+
+.issue img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 7px solid #e9ecef;
+}
+
+.issue-text1 {
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 20px;
+  width: 500px;
+}
+
+.issue-text2 {
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 20px;
+  padding-left: 50px;
+  width: 500px;
+}
+
+.issue-text3 {
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 20px;
+  width: 500px;
+}
